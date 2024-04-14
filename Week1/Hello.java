@@ -35,9 +35,17 @@ System.out.println("the rules of \"escape sequences.\"");
 System.out.println("Also, \"\" represents an empty");
 System.out.println("String. Don't forget: use\\");
 System.out.println("instead of \" ! ");
-System.out.println("\'\' is not the same as \" */");
+System.out.println("\'\' is not the same as \" ");
 
-
+/* 4. WAP that prints the following pattern:
+*
+**
+***
+**** */
+System.out.println("*");
+System.out.println("**");
+System.out.println("***");
+System.out.println("****");
     }
 
 }
