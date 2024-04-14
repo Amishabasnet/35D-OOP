@@ -12,7 +12,32 @@ I am on module ST4003CEM
 
 System.out.print (not println) and produces the same output. */
 System.out.print("This is my first program\n");
-System.out.print("I am on module ST4003CEM");
+System.out.print("I am on module ST4003CEM\n");
+
+/*3. Write a program that prints the following output:
+
+A "quoted" String is
+
+'much' better if you learn
+
+the rules of "escape sequences."
+
+Also, "" represents an empty
+
+String. Don't forget: use \"
+
+instead of " !
+
+'' is not the same as " */
+System.out.println("A \"quoted\" String is ");
+System.out.println("\'much\' better if you learn");
+System.out.println("the rules of \"escape sequences.\"");
+System.out.println("Also, \"\" represents an empty");
+System.out.println("String. Don't forget: use\\");
+System.out.println("instead of \" ! ");
+System.out.println("\'\' is not the same as \" */");
+
+
     }
 
 }
