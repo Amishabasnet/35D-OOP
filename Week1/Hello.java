@@ -46,6 +46,20 @@ System.out.println("*");
 System.out.println("**");
 System.out.println("***");
 System.out.println("****");
+
+/* WAP prints the following pattern:
+*********
+*********
+*********
+*********
+ */
+
+ 
+System.out.println("*********");
+System.out.println("*********");
+System.out.println("*********");
+System.out.println("*********");
+
     }
 
 }
