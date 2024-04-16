@@ -73,9 +73,7 @@ public class Variable {
     int intVar = (int)floatVar1;
     String info = "The integer is";
     System.out.println(info);
-    System.out.println(intVar1);
-
-
+    System.out.println("intVar1");
 }
     
 }
