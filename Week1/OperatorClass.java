@@ -65,6 +65,44 @@ public class OperatorClass {
         int numberOutput = tNumber1<tNumber2? 10 : 20;
         System.out.println(output);
         System.out.println(numberOutput);
+
+        /* Task 1
+     * Write a program to print whether a variable is greater or equal to 18
+     */
+    int rNumber3 = 19;
+    System.out.println("rNumber3 greater or equal to 18? " + ( rNumber3 >= 18));
+
+     /* Task 2
+      * Write a program to print simple interest from variables
+      * Make 3 variable for amount, time and rate and save the calculation into a variable
+      * Formula:
+      * s1 = amount * time * rate/100;
+      */
+      int amount = 1000, time = 2, rate = 5;
+      System.out.println("Simple Interest is " + ( amount * time * rate/100));
+      
+      /* Task 3
+       * Write a program to print the area and perimeter of rectangle
+       * a = l * b
+       * p = 2 (l + b)
+       */
+      int length = 5, breadth = 4;
+      System.out.println("the area is " + ( length * breadth ));
+      System.out.println("the perimeter is " + ( 2 * (length * breadth)));
+
+      /* Task 4
+       * Complete the task 1 using Ternary operators
+       */
+      int num1 = 18, num2 = 20;
+      boolean Expression = num1 == num2;
+      String result = Expression ? "True Statement" : "False Statement";
+      int numresult = tNumber1<tNumber2? 10 : 20;
+        System.out.println(result);
+        System.out.println(numresult);
+
+
+
+
     }
     
 }
